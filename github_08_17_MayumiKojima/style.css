@@ -1,0 +1,96 @@
+/* 各ファイル共通 */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+html {
+  font-family: "Comfortaa", cursive;
+  line-height: 1.5;
+}
+
+.wrap {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  color: #fff;
+  margin: 30px, 0px;
+  height: 450px;
+  background-color: #3f6473;
+  background-image: url(img/filmbg2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.htitle {
+  padding: 20px 20px;
+}
+
+#images {
+  padding: 0;
+}
+
+#texts {
+  width: 450px;
+  padding: 0 0 0 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 8px;
+  color: #3a403e;
+}
+
+a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #bf214b;
+}
+
+/* index.php */
+input {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+.newitem {
+  border-style: dotted;
+  padding: 5px;
+}
+
+select {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+#tmdbsearch {
+  padding-left: 10px;
+  margin-top: 20px;
+  background-color: #407364;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+/* select.php */
+#url input {
+  width: 500px;
+}
+
+h3 {
+  color: #5e2c99;
+}
